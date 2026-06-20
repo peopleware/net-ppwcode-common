@@ -1,0 +1,18 @@
+= Getting started
+
+== Add NuGet package
+
+The libraries in this project are available on NuGet:
+
+* https://www.nuget.org/packages/PPWCode.Common.I.API[PPWCode.Common.I.API]
+* https://www.nuget.org/packages/PPWCode.Common.I.Server.BusinessLogic[PPWCode.Common.I.Server.BusinessLogic]
+* https://www.nuget.org/packages/PPWCode.Common.I.Server.BusinessLogic.NHibernate[PPWCode.Common.I.Server.BusinessLogic.NHibernate]
+* https://www.nuget.org/packages/PPWCode.Common.I.Utils[PPWCode.Common.I.Utils]
+
+
+You can use your IDE to add it as a dependency to your project, or manually add it in the `.csproj` file.  This would look similar to the following:
+
+[source,xml]
+----
+include::example$project.csproj[]
+----

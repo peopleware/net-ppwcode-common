@@ -1,0 +1,14 @@
+<Project>
+    <PropertyGroup>
+        <!-- nuget package -->
+        <IsPackable>true</IsPackable>
+
+        <!-- Analyzer -->
+        <CodeAnalysisRuleSet>..\Analyzer.ruleset</CodeAnalysisRuleSet>
+    </PropertyGroup>
+
+    <!-- common dependencies included using GlobalPackageReference -->
+    <ItemGroup>
+        <PackageReference Include="PPWCode.Vernacular.Contracts.I" />
+    </ItemGroup>
+</Project>

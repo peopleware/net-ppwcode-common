@@ -1,0 +1,31 @@
+= Changelog
+
+////
+The changelog is maintained here.
+
+Note that it is best to update the changelog as new code is developed, and that
+the link to the GitHub tag is only added once we are ready to release.
+////
+
+// some helper attributes for the release links
+:github: https://github.com/peopleware/net-ppwcode-common/releases/tag/I%2F
+:ppwcode-docs: https://peopleware.github.io/net-ppwcode-docs/ppwcode-common-i/
+:nuget-api: https://www.nuget.org/packages/PPWCode.Common.I.API/
+:nuget-business: https://www.nuget.org/packages/PPWCode.Common.I.Server.BusinessLogic/
+:nuget-business-nhibernate: https://www.nuget.org/packages/PPWCode.Common.I.Server.BusinessLogic.NHibernate/
+:nuget-utils: https://www.nuget.org/packages/PPWCode.Common.I.Utils/
+
+:api: PPWCode.Common.I.API
+:business: PPWCode.Common.I.Server.BusinessLogic
+:business-nhibernate: PPWCode.Common.I.Server.BusinessLogic.NHibernate
+:utils: PPWCode.Common.I.Utils
+
+:github-user: https://github.com/
+:github-pr: https://github.com/peopleware/net-ppwcode-common/pull/
+:github-issue: https://github.com/peopleware/net-ppwcode-common/issues/
+
+
+:release: 1.0.0
+== `{release}`
+include::partial$changelog-release-section.adoc[]
+include::partial$changelog-{release}.adoc[]

@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\common.props" />
+
+    <ItemGroup>
+        <ProjectReference Include="..\I.Server.BusinessLogic\PPWCode.Common.I.Server.BusinessLogic.csproj" />
+    </ItemGroup>
+
+</Project>

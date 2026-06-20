@@ -1,0 +1,5 @@
+name: ppwcode-common-i
+version: ~
+title: PPWCode.Common.I
+nav:
+  - modules/ROOT/nav.adoc

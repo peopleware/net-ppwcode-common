@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\common-tests.props"/>
+
+    <ItemGroup>
+        <ProjectReference Include="..\I.API\PPWCode.Common.I.API.csproj" />
+    </ItemGroup>
+
+</Project>
