@@ -1,0 +1,34 @@
+<Solution>
+  <Folder Name="/analyzers/">
+    <File Path="src/Analyzer-Tests.ruleset" />
+    <File Path="src/Analyzer.ruleset" />
+  </Folder>
+  <Folder Name="/build-pipeline/">
+    <File Path=".github/workflows/ci.yml" />
+    <File Path=".github/workflows/publish-legacy.yml" />
+    <File Path=".github/workflows/publish.yml" />
+    <File Path=".github/workflows/reproduce-build.yml" />
+  </Folder>
+  <Folder Name="/package/">
+    <File Path="assets/ppw-logo-2.png" />
+    <File Path="assets/ppw-logo.png" />
+    <File Path="LICENSE" />
+    <File Path="NOTICE" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/solution-items/">
+    <File Path="global.json" />
+    <File Path="src/common-tests.props" />
+    <File Path="src/common.props" />
+    <File Path="src/Directory.Build.props" />
+    <File Path="src/Directory.Packages.props" />
+  </Folder>
+  <Project Path="src/I.API.Tests/PPWCode.Common.I.API.Tests.csproj" />
+  <Project Path="src/I.API/PPWCode.Common.I.API.csproj" />
+  <Project Path="src/I.Server.BusinessLogic.NHibernate.Tests/PPWCode.Common.I.Server.BusinessLogic.NHibernate.Tests.csproj" />
+  <Project Path="src/I.Server.BusinessLogic.NHibernate/PPWCode.Common.I.Server.BusinessLogic.NHibernate.csproj" />
+  <Project Path="src/I.Server.BusinessLogic.Tests/PPWCode.Common.I.Server.BusinessLogic.Tests.csproj" />
+  <Project Path="src/I.Server.BusinessLogic/PPWCode.Common.I.Server.BusinessLogic.csproj" />
+  <Project Path="src/I.Utils.Tests/PPWCode.Common.I.Utils.Tests.csproj" />
+  <Project Path="src/I.Utils/PPWCode.Common.I.Utils.csproj" />
+</Solution>
