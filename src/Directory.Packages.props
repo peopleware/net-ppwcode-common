@@ -20,6 +20,8 @@
     <ItemGroup>
         <!-- PPWCode -->
         <PackageVersion Include="PPWCode.Vernacular.Contracts.I" Version="1.*" />
+        <PackageVersion Include="PPWCode.Vernacular.Exceptions.V" Version="1.*" />
+        <PackageVersion Include="PPWCode.Vernacular.Persistence.V" Version="1.*-*" />
 
         <!-- nunit -->
         <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.*" />
